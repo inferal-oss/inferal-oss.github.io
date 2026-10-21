@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Inferal Open Source — useful tools, built in the open</title>
+    <meta
+      name="description"
+      content="Open source from Inferal. Tools for understanding applications, building accessible interfaces, running rules, delivering images, and managing privacy choices."
+    />
+    <link rel="icon" type="image/svg+xml" href="/assets/inferal.svg" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#projects">Skip to projects</a>
+    <header class="wrap">
+      <a class="brand" href="/"
+        ><img src="/assets/inferal.svg" width="23" height="28" alt="" />Inferal
+        <span>Open Source</span></a
+      ><a class="github" href="https://github.com/inferal-oss">GitHub ↗</a>
+    </header>
+    <main>
+      <section class="hero wrap">
+        <p class="eyebrow">MADE BY INFERAL. OPEN TO EVERYONE.</p>
+        <h1>Useful tools.<br /><span>Built in the open.</span></h1>
+        <p class="intro">
+          We build software that makes complex systems easier to understand and
+          work with. These are the projects we’re sharing: focused tools for the
+          web, application infrastructure, and the details that deserve better
+          defaults. Explore the code, try a demo, and help shape what comes
+          next.
+        </p>
+        <a class="button" href="#projects"
+          >Explore our projects <span>↓</span></a
+        >
+        <div class="hero-note">
+          <span class="dot"></span>Source available. Ideas welcome.
+        </div>
+      </section>
+      <section
+        id="projects"
+        class="projects wrap"
+        aria-labelledby="project-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">THE COLLECTION</p>
+            <h2 id="project-title">A few things we’re working on.</h2>
+          </div>
+          <a href="https://github.com/orgs/inferal-oss/repositories"
+            >All repositories ↗</a
+          >
+        </div>
+        <article class="project featured">
+          <div class="project-heading">
+            <img
+              src="/assets/web-network-inspector.svg"
+              width="56"
+              height="56"
+              alt=""
+            />
+            <div>
+              <p class="category">DEVELOPER TOOLS</p>
+              <h3>Web Network Inspector</h3>
+            </div>
+            <span class="tag">JavaScript</span>
+          </div>
+          <p>
+            An extensible network waterfall that lives inside your application.
+            Inspect fetch requests, XMLHttpRequest, WebSocket messages, resource
+            timings, and your own application events in one timeline. Add
+            controls, connect your own popups, and restyle it with CSS. Plain
+            JavaScript, bounded in-memory capture, and no runtime dependencies.
+          </p>
+          <div class="links">
+            <a href="/web-network-inspector/"
+              >Explore the project <span>↗</span></a
+            ><a href="/web-network-inspector/demo/">Live demo ↗</a
+            ><a href="https://github.com/inferal-oss/web-network-inspector"
+              >Source ↗</a
+            >
+          </div>
+        </article>
+        <div class="project-grid">
+          <article class="project">
+            <div class="project-heading">
+              <img src="/assets/openregard.svg" width="48" height="48" alt="" />
+              <div>
+                <p class="category">ACCESSIBILITY</p>
+                <h3>Open Regard</h3>
+              </div>
+            </div>
+            <p>
+              A modular toolkit for making interfaces more adaptable to the
+              people using them. Its Display module provides configurable
+              display preferences, a native widget, synchronized profiles, and
+              an optional React integration. A dependency-free core lets you
+              bring those preferences into your own interface and design.
+            </p>
+            <div class="links">
+              <a href="https://openregard.org/">Visit Open Regard ↗</a
+              ><a href="https://github.com/inferal-oss/openregard">Source ↗</a>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-heading">
+              <img src="/assets/clipspyx.svg" width="48" height="48" alt="" />
+              <div>
+                <p class="category">RULE ENGINES</p>
+                <h3>clipspyx</h3>
+              </div>
+            </div>
+            <p>
+              Python bindings and a Python-native language for the CLIPS
+              production rule engine. Write rules as Python classes, work with
+              facts, and use asynchronous backward chaining to resolve goals.
+              Fact tracing and rule diagrams help explain what the engine did,
+              while the lower-level bindings remain available when you need
+              them.
+            </p>
+            <div class="links">
+              <a href="https://github.com/inferal-oss/clipspyx#readme"
+                >Explore clipspyx ↗</a
+              ><a href="https://github.com/inferal-oss/clipspyx">Source ↗</a>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-heading">
+              <img src="/assets/kimage.svg" width="48" height="48" alt="" />
+              <div>
+                <p class="category">KUBERNETES · ALPHA</p>
+                <h3>Kimage</h3>
+              </div>
+            </div>
+            <p>
+              A Kubernetes-native image catalog, builder, and delivery system.
+              Declare an image as a Kubernetes resource, build and verify its
+              OCI artifact, and deliver an immutable image release. Workloads
+              can pin the resulting digest, connecting the image you asked for
+              with the artifact your cluster actually runs.
+            </p>
+            <div class="links">
+              <a href="https://kimage.dev/">Visit Kimage ↗</a
+              ><a href="https://github.com/inferal-oss/kimage">Source ↗</a>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-heading">
+              <img src="/assets/notabenda.svg" width="48" height="48" alt="" />
+              <div>
+                <p class="category">PRIVACY &amp; SITE TOOLS · PREVIEW</p>
+                <h3>Notabenda</h3>
+              </div>
+            </div>
+            <p>
+              Compliance packs for your site: privacy pages, cookie choices, and
+              agreements that fit your own design. Notabenda brings the required
+              facts, components, and integration checks together so you can
+              prepare a draft and host the results yourself. Optional Cloudflare
+              tools add scoped evidence and document history.
+            </p>
+            <div class="links">
+              <a href="https://notabenda.org/">Visit Notabenda ↗</a
+              ><a href="https://github.com/inferal-oss/notabenda">Source ↗</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="closing wrap">
+        <span class="eyebrow">GOOD SOFTWARE GETS BETTER TOGETHER.</span>
+        <h2>Found something useful?<br />Make it your own.</h2>
+        <p>
+          Read the docs, open an issue, or contribute a change.<br />Each
+          repository has its own license and contribution guidance.
+        </p>
+        <a class="button" href="https://github.com/inferal-oss"
+          >Find us on GitHub ↗</a
+        >
+      </section>
+    </main>
+    <footer class="wrap">
+      <a class="brand" href="/"
+        ><img src="/assets/inferal.svg" width="18" height="22" alt="" />Inferal
+        <span>Open Source</span></a
+      >
+      <p>
+        Sponsored by
+        <a class="sponsor" href="https://inferal.com/"
+          ><img
+            src="/assets/inferal.svg"
+            width="12"
+            height="14"
+            alt=""
+          />Inferal</a
+        >
+      </p>
+      <a href="https://github.com/inferal-oss">Built in the open ↗</a>
+    </footer>
+  </body>
+</html>
