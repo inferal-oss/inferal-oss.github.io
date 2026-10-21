@@ -11,6 +11,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
     <link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg" />
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/assets/display/widget.css" />
+    <link rel="stylesheet" href="/assets/display/display.css" />
+    <script src="/assets/display/openregard-0.3.0.js"></script>
+    <script src="/assets/display/display.js"></script>
   </head>
   <body>
     <a class="skip" href="#projects">Skip to projects</a>
@@ -18,7 +22,9 @@
       <a class="brand" href="/"
         ><img src="/assets/inferal.svg" width="23" height="28" alt="" />Inferal
         <span>Open Source</span></a
-      ><a class="github" href="https://github.com/inferal-oss">GitHub ↗</a>
+      >
+      <div data-inferal-display></div>
+      <a class="github" href="https://github.com/inferal-oss">GitHub ↗</a>
     </header>
     <main>
       <section class="hero wrap">
@@ -195,6 +201,7 @@
           />Inferal</a
         >
       </p>
+      <div data-inferal-display></div>
       <a href="https://github.com/inferal-oss">Built in the open ↗</a>
     </footer>
   </body>

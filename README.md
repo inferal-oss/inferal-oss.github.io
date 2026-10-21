@@ -18,3 +18,9 @@ Notabenda (`notabenda.org/docs/assets/mark.svg`), and Web Network Inspector.
 clipspyx has no dedicated mark in its repository; the `cx` tile is an original
 wordmark for this directory. The Inferal chevron is the sponsor's existing brand
 mark. These marks retain their respective ownership and licenses.
+
+The Open Regard display control shares its `inferal-oss-display-v1` preference
+with project sites on this origin. New subsites can reuse `assets/display/`,
+load its widget CSS, display CSS, browser bundle, and configuration in the head,
+and add a `[data-inferal-display]` container. Keep the profile IDs and storage
+key consistent so saved choices stay synchronized across pages and tabs.
