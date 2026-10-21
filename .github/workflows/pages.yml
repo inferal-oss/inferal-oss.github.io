@@ -24,7 +24,7 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir dist
-          cp index.html style.css .nojekyll dist/
+          cp index.html style.css favicon.svg favicon.png favicon.ico .nojekyll dist/
           cp -R assets dist/
       - uses: actions/upload-pages-artifact@v4
         with:
