@@ -1,12 +1,14 @@
 # Inferal Open Source
 
-The organization website for [Inferal Open Source](https://inferal-oss.github.io/).
-Edit `index.html` and `style.css` directly. GitHub Pages publishes the root of
-`main`. Project documentation and the live inspector demo are built and deployed
+The organization website for [Inferal Open Source](https://oss.inferal.org/).
+Edit `index.html` and `style.css` directly. GitHub Actions checks local asset
+links, then publishes the static files from `main` to GitHub Pages. Project
+documentation and the live inspector demo are built and deployed
 by the [Web Network Inspector repository](https://github.com/inferal-oss/web-network-inspector).
 
-The organization site's custom domain will be `oss.inferal.org`; project sites
-inherit that domain. Domain setup is managed separately from these static files.
+The organization site uses `oss.inferal.org`; project sites inherit that domain.
+Cloudflare manages DNS, and GitHub Pages enforces HTTPS. Domain settings are
+managed separately from these static files.
 
 ## Assets
 
