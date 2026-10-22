@@ -1,0 +1,44 @@
+# Inferal Open Source
+
+> Inferal's open-source projects: focused tools for web applications, infrastructure, and AI. This directory connects each project to its website, documentation, and public source.
+
+The organization site is https://oss.inferal.org/. Project sites such as Web Network Inspector live under this domain; other projects use their own domains. Each repository has its own license, release status, and contribution guidance. Inferal sponsors these projects.
+
+## Web Network Inspector
+
+- [Project overview](https://oss.inferal.org/web-network-inspector/): A framework-independent, in-page network waterfall for fetch, XMLHttpRequest, WebSocket frames, resource timing, application events, and timed event spans. Includes bounded capture, optional retained history, configurable columns, custom details renderers, and an optional React component.
+- [Getting started](https://oss.inferal.org/web-network-inspector/docs/): Installation and embedding in an application.
+- [API reference](https://oss.inferal.org/web-network-inspector/docs/api/): Capture, application events, controls, popups, and view APIs.
+- [Event spans](https://oss.inferal.org/web-network-inspector/docs/spans/): Start and finish application work with growing waterfall bars.
+- [Styling](https://oss.inferal.org/web-network-inspector/docs/styling/): Shadow DOM, CSS variables, light and dark themes, and preview styling.
+- [Custom columns](https://oss.inferal.org/web-network-inspector/docs/columns/): Renderers, sorting, resizing, and visibility.
+- [Details renderers](https://oss.inferal.org/web-network-inspector/docs/details/): Headers, body previews, and custom iframe content.
+- [View preferences](https://oss.inferal.org/web-network-inspector/docs/preferences/): Save layout and sorting with configurable storage.
+- [Live demo](https://oss.inferal.org/web-network-inspector/demo/): User-triggered requests, WebSocket messages, checkbox events, timed spans, custom controls, and renderer/theme examples.
+- [Source and README](https://github.com/inferal-oss/web-network-inspector): Public source; Apache-2.0 or MIT license choice.
+
+## Open Regard
+
+- [Website](https://openregard.org/): Modular tools for adaptable interfaces. The Display module supplies configurable display preferences, a native widget, synchronized profiles, and optional React integration.
+- [Documentation](https://openregard.org/docs/): Installation, configuration, and framework integration.
+- [Source and README](https://github.com/inferal-oss/openregard): Dependency-free core, widget, examples, and development guidance.
+
+## clipspyx
+
+- [Source and README](https://github.com/inferal-oss/clipspyx): Python bindings and a Python-native language for the CLIPS production rule engine. Supports Python rule classes, facts, asynchronous backward chaining, fact tracing, and rule diagrams, with lower-level bindings available.
+
+## Kimage
+
+- [Website](https://kimage.dev/): Alpha Kubernetes-native image catalog, builder, and delivery system. Declare images as Kubernetes resources, build and verify OCI artifacts, and deliver immutable releases that workloads can pin by digest.
+- [Source and README](https://github.com/inferal-oss/kimage): API, deployment, and development information.
+
+## Notabenda
+
+- [Website](https://notabenda.org/): Preview-stage site tools for privacy pages, cookie choices, and agreements. Provides compliance packs, facts, components, and integration checks for preparing drafts and hosting the results yourself; optional Cloudflare primitives support edge use.
+- [Source and README](https://github.com/inferal-oss/notabenda): Public source, project status, and integration guidance.
+
+## Optional
+
+- [Organization homepage](https://oss.inferal.org/): Project descriptions, logos, and links for people.
+- [All public repositories](https://github.com/orgs/inferal-oss/repositories): Current organization inventory beyond this curated directory.
+- [Inferal](https://inferal.com/): Project sponsor.

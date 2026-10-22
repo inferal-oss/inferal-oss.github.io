@@ -24,3 +24,9 @@ with project sites on this origin. New subsites can reuse `assets/display/`,
 load its widget CSS, display CSS, browser bundle, and configuration in the head,
 and add a `[data-inferal-display]` container. Keep the profile IDs and storage
 key consistent so saved choices stay synchronized across pages and tabs.
+
+## Project index for assistants
+
+`llms.txt` describes the five featured projects and links to their primary
+websites, documentation, and repositories. Update it alongside the project
+directory. The Pages workflow includes it in the published site.
