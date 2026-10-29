@@ -14,7 +14,9 @@ managed separately from these static files.
 
 Project marks are copied from their respective public websites or repositories:
 Open Regard (`openregard.org/assets/mark.svg`), Kimage (`kimage.dev/mark.svg`),
-Notabenda (`notabenda.org/docs/assets/mark.svg`), and Web Network Inspector.
+Notabenda (`notabenda.org/docs/assets/mark.svg`), Web Network Inspector, and
+ARM ([Carve symbol](https://github.com/inferal-oss/arm/blob/main/docs/branding/carve/symbol-light.svg)).
+The ARM symbol is used under the MIT license; see [its notice](assets/arm-NOTICE.txt).
 clipspyx has no dedicated mark in its repository; the `cx` tile is an original
 wordmark for this directory. The Inferal chevron is the sponsor's existing brand
 mark. These marks retain their respective ownership and licenses.
@@ -27,6 +29,6 @@ key consistent so saved choices stay synchronized across pages and tabs.
 
 ## Project index for assistants
 
-`llms.txt` describes the five featured projects and links to their primary
+`llms.txt` describes the six featured projects and links to their primary
 websites, documentation, and repositories. Update it alongside the project
 directory. The Pages workflow includes it in the published site.

@@ -15,11 +15,12 @@ for (const project of [
   "clipspyx",
   "Kimage",
   "Notabenda",
+  "ARM",
 ]) {
   assert.ok(
     html.includes(`<h3>${project}</h3>`),
     `Missing project: ${project}`,
   );
 }
-assert.equal((html.match(/class="project(?: featured)?"/g) ?? []).length, 5);
-console.log("All five projects and local assets are present.");
+assert.equal((html.match(/class="project(?: featured)?"/g) ?? []).length, 6);
+console.log("All six projects and local assets are present.");

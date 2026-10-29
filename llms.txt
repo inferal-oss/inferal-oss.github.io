@@ -37,6 +37,11 @@ The organization site is https://oss.inferal.org/. Project sites such as Web Net
 - [Website](https://notabenda.org/): Preview-stage site tools for privacy pages, cookie choices, and agreements. Provides compliance packs, facts, components, and integration checks for preparing drafts and hosting the results yourself; optional Cloudflare primitives support edge use.
 - [Source and README](https://github.com/inferal-oss/notabenda): Public source, project status, and integration guidance.
 
+## ARM — Agent Resource Manager
+
+- [Website](https://getarm.org/): Cooperative resource coordination for agents through time-limited CPU, memory, and storage leases, durable ownership records, queued admission, and run visibility. Includes a CLI and web and terminal dashboards for inspecting allocations and following command output. Resource budgets are cooperative reservations, not hard OS quotas.
+- [Source and README](https://github.com/inferal-oss/arm): Setup, supported behavior, implementation limits, and development guidance.
+
 ## Optional
 
 - [Organization homepage](https://oss.inferal.org/): Project descriptions, logos, and links for people.
